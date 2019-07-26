@@ -35,18 +35,6 @@ $dark-color: #262626;
     } 
 }
 
-@mixin media-height-calculator ($class, $height){
-    @for $i from 1 to 6 {
-        @if ( $i % 2 == 1 ) {
-            .#{$class}-#{$i} {
-                min-height: $height;
-                background-color: $light-color;
-                color: $dark-color;
-            } 
-        }
-    } 
-}
-
 @mixin parallax-span {
     @for $i from 1 to 6 {
         @if ( $i % 2 == 1 ) {
@@ -125,7 +113,6 @@ $dark-color: #262626;
 
 @media screen  and (max-width: 700px){
     .wrapper{
-        @include media-height-calculator(parallax, 60%);
         
         .parallax{
             background-attachment: scroll;

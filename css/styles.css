@@ -167,6 +167,21 @@ html, body {
 }
 
 @media screen and (max-width: 700px) {
+  .wrapper .parallax-1 {
+    min-height: 60%;
+    background-color: #f2f2f2;
+    color: #262626;
+  }
+  .wrapper .parallax-3 {
+    min-height: 60%;
+    background-color: #f2f2f2;
+    color: #262626;
+  }
+  .wrapper .parallax-5 {
+    min-height: 60%;
+    background-color: #f2f2f2;
+    color: #262626;
+  }
   .wrapper .parallax {
     background-attachment: scroll;
   }

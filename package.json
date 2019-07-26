@@ -1,0 +1,22 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "This is a simple website which I made in order to get a better understanding over sass' for functions and how to manage them. I also got a better understanding over background properties.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariamelinte/parallax-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariamelinte/parallax-model/issues"
+  },
+  "homepage": "https://dariamelinte.github.io/parallax-model",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
